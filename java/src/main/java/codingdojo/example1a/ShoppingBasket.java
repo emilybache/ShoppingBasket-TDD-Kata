@@ -9,7 +9,7 @@ public class ShoppingBasket {
         return 0;
     }
 
-    public String formatTotalAsDollars() {
-        return null;
+    public double calculateTotal() {
+        return 0;
     }
 }

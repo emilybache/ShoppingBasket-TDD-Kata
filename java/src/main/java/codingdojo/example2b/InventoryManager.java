@@ -7,7 +7,7 @@ public class InventoryManager {
         return 0;
     }
 
-    public static double calculateTotal(Map<Item, Integer> basket) {
-        return 0;
+    public static Money calculateTotal(Map<Item, Integer> basket) {
+        return Money.fromDollars(0);
     }
 }
