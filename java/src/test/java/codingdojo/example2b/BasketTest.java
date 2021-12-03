@@ -8,7 +8,6 @@ import java.util.Map;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class BasketTest {
-
     @Test
     void Total_Over_100_Gives_Five_Percent_Discount() {
         var basket = Map.of(
