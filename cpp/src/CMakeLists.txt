@@ -1,0 +1,5 @@
+set(SRC_LIB_NAME src)
+set(SOURCES sample.cpp example1a.cpp example1a.h example1b.cpp example1b.h example2a.cpp example2a.h example2b.cpp example2b.h)
+add_library(${SRC_LIB_NAME} ${SOURCES})
+target_sources(${SRC_LIB_NAME} PRIVATE ${SOURCES})
+target_include_directories(${SRC_LIB_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
