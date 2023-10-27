@@ -4,7 +4,7 @@ namespace ShoppingBasket2;
 
 public class ShoppingBasket
 {
-    public void Add(string name, Dictionary<object, object> itemProperties, decimal price, int quantity)
+    public void Add(string name, Dictionary<string, object> itemProperties)
     {
         throw new NotImplementedException();
     }
@@ -19,10 +19,6 @@ public class ShoppingBasket
         throw new NotImplementedException();
     }
 
-    public Dictionary<string, BasketItem> Items { get; set; }
+    public Dictionary<string, Dictionary<string, object>> Items { get; set; }
 }
 
-public class BasketItem
-{
-    public decimal Quantity { get; private set; }
-}
