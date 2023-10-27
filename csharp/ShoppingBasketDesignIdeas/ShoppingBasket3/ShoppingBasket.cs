@@ -1,15 +1,18 @@
-using ShoppingBasket2.Tests;
-
-namespace ShoppingBasket2;
+namespace ShoppingBasket3;
 
 public class ShoppingBasket
 {
-    public void Add(Item item, int quantity)
+    public void AddItem(string item, decimal price, int quantity)
+    {
+        // not yet implemented
+    }
+
+    public void RemoveItem(string item)
     {
         throw new NotImplementedException();
     }
 
-    public int GetQuantity(string name)
+    public int GetQuantity(string s)
     {
         throw new NotImplementedException();
     }

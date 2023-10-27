@@ -16,6 +16,7 @@ public class BasketTest
         basket.Add(itemA, 5);
         basket.Add(itemB, 2);
         basket.Add(itemC, 6);
+        
         Assert.That(basket.GetQuantity(itemC), Is.EqualTo(6));
         Assert.That(basket.CalculateTotal(), Is.EqualTo(151.94).Within(0.01));
     }
