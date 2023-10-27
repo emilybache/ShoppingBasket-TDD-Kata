@@ -11,7 +11,7 @@ public class BasketTest
         basket.Add("B", new Dictionary<object, object>(), new decimal(25.0), 2);
         basket.Add("C", new Dictionary<object, object>(), new decimal(9.99), 6);
         
-        Assert.That(basket.GetQuantity("C"), Is.EqualTo(6));
+        Assert.That(basket.Items["C"].Quantity, Is.EqualTo(6));
         Assert.That(basket.CalculateTotal(), Is.EqualTo(new decimal(151.94)).Within(0.01));
     }
 }

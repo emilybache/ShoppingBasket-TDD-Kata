@@ -18,4 +18,11 @@ public class ShoppingBasket
     {
         throw new NotImplementedException();
     }
+
+    public Dictionary<string, BasketItem> Items { get; set; }
+}
+
+public class BasketItem
+{
+    public decimal Quantity { get; private set; }
 }
