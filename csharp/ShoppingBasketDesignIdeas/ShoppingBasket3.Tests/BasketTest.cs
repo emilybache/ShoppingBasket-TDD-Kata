@@ -7,9 +7,9 @@ public class BasketTest
     public void Total_Over_100_Gives_Five_Percent_Discount()
     {
         var basket = new ShoppingBasketBuilder()
-            .AddItem("A", new decimal(10.0), 5)
-            .AddItem("B", new decimal(25.0), 2)
-            .AddItem("C", new decimal(9.99), 6)
+            .AddItem(new ItemBuilder("A").WithPrice(new decimal(10.0)).WithQuantity(5).Build())
+            .AddItem(new ItemBuilder("B").WithPrice(new decimal(25.0)).WithQuantity(2).Build())
+            .AddItem(new ItemBuilder("C").WithPrice(new decimal(9.99)).WithQuantity(6).Build())
             .Build();
 
         Assert.That(basket.GetQuantity("C"), Is.EqualTo(6));
