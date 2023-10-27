@@ -4,7 +4,7 @@ namespace ShoppingBasket2;
 
 public class ShoppingBasket
 {
-    public void Add(Item item, int quantity)
+    public void Add(string name, Dictionary<object, object> itemProperties, decimal price, int quantity)
     {
         throw new NotImplementedException();
     }

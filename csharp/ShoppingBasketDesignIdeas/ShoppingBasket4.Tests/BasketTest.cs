@@ -41,7 +41,7 @@ public class BasketTest
   ]
 }
 ";
-        var basket = ShoppingBasket.FromJson(json);
+        var basket = ShoppingBasketFactory.FromJson(json);
 
         Assert.That(basket.GetQuantity("C"), Is.EqualTo(6));
         Assert.That(basket.CalculateTotal(), Is.EqualTo(151.94).Within(0.01));

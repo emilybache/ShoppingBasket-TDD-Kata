@@ -1,6 +1,6 @@
 namespace ShoppingBasket4;
 
-public class ShoppingBasket
+public class ShoppingBasketFactory
 {
     public int GetQuantity(string name)
     {
@@ -12,7 +12,7 @@ public class ShoppingBasket
         throw new NotImplementedException();
     }
 
-    public static ShoppingBasket FromJson(string json)
+    public static ShoppingBasketFactory FromJson(string json)
     {
         throw new NotImplementedException();
     }
