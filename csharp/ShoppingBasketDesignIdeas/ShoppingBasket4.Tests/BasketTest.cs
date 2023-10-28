@@ -15,27 +15,16 @@ public class BasketTest
     {
       ""name"": ""A"",
       ""price"": 10.0,
-    },
-    {
-      ""name"": ""B"",
-      ""price"": 25.0,
-    },
-    {
-      ""name"": ""C"",
-      ""price"": 9.99,
-    }
-  ],
-  ""quantities"": [
-    {
-      ""name"": ""A"",
       ""quantity"": 5
     },
     {
       ""name"": ""B"",
+      ""price"": 25.0,
       ""quantity"": 2
     },
     {
       ""name"": ""C"",
+      ""price"": 9.99,
       ""quantity"": 6
     }
   ]
