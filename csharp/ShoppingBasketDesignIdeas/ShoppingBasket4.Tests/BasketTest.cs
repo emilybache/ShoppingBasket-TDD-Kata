@@ -46,7 +46,7 @@ public class BasketTest
 ";
         var basket = ShoppingBasketFactory.FromJson(json);
 
-        Assert.AreEqual(6, BasketAnalysis.Quantity("C", basket));
-        Assert.AreEqual(151.94m, BasketAnalysis.CalculateTotal(basket));
+        Assert.That(basket.GetQuantity("C"), Is.EqualTo(6));
+        Assert.That(basket.CalculateTotal(), Is.EqualTo(151.94).Within(0.01));
     }
 }

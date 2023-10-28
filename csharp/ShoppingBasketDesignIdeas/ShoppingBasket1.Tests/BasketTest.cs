@@ -31,7 +31,7 @@ public class BasketTest
         basket.Add(itemB, 2);
         basket.Add(itemC, 6);
 
-        Assert.AreEqual(6, basket.GetQuantity("C"));
-        Assert.AreEqual(151.94m, basket.CalculateTotal());
+        Assert.That(basket.GetQuantity("C"), Is.EqualTo(6));
+        Assert.That(basket.CalculateTotal(), Is.EqualTo(new decimal(151.94)).Within(0.01));
     }
 }

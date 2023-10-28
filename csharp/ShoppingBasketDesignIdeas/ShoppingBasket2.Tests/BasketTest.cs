@@ -27,7 +27,7 @@ public class BasketTest
         basket.Add("B", new Dictionary<string, object>(){ { "price", new decimal(25.0) }, { "quantity", 2} });
         basket.Add("C", new Dictionary<string, object>(){ { "price", new decimal(9.99) }, { "quantity", 6} });
         
-        Assert.AreEqual(6, BasketAnalysis.Quantity("C", basket));
-        Assert.AreEqual(151.94m, BasketAnalysis.CalculateTotal(basket));
+        Assert.That(BasketAnalysis.Quantity("C", basket), Is.EqualTo(6));
+        Assert.That(BasketAnalysis.CalculateTotal(basket), Is.EqualTo(new decimal(151.94)).Within(0.01));
     }
 }
