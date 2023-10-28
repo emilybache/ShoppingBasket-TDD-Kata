@@ -7,12 +7,12 @@ public class ShoppingBasket
         throw new NotImplementedException();
     }
 
-    public double GetQuantity(BasketItem item)
+    public double GetQuantity(String itemName)
     {
         throw new NotImplementedException();
     }
 
-    public double CalculateTotal()
+    public decimal CalculateTotal()
     {
         throw new NotImplementedException();
     }

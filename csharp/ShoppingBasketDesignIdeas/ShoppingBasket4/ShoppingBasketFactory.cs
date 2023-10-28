@@ -2,12 +2,12 @@ namespace ShoppingBasket4;
 
 public class ShoppingBasketFactory
 {
-    public int GetQuantity(string name)
+    public int GetQuantity(string itemName)
     {
         throw new NotImplementedException();
     }
 
-    public double CalculateTotal()
+    public decimal CalculateTotal()
     {
         throw new NotImplementedException();
     }

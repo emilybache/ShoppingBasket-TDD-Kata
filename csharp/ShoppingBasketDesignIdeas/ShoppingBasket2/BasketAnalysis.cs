@@ -7,7 +7,7 @@ public class BasketAnalysis
         throw new NotImplementedException();
     }
 
-    public static decimal Quantity(string itemName, Dictionary<string, Dictionary<string, object>> basket)
+    public static double Quantity(string itemName, Dictionary<string, Dictionary<string, object>> basket)
     {
         throw new NotImplementedException();
     }
