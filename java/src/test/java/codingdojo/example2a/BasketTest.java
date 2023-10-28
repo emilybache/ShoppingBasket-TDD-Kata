@@ -19,8 +19,9 @@ public class BasketTest {
                 Map.entry("A", 5),
                 Map.entry("B", 2),
                 Map.entry("C", 6));
-        Assertions.assertEquals(6, new InventoryManager(allItems).getQuantity(basket, "C"));
-        assertEquals(151.94, new InventoryManager(allItems).calculateTotal(basket), 0.01);
+        var manager = new InventoryManager(allItems);
+        assertEquals(6, manager.getQuantity(basket, "C"));
+        assertEquals(151.94, manager.calculateTotal(basket), 0.01);
     }
 
 }
