@@ -35,5 +35,4 @@ public class BasketTest {
         assertEquals(new BigDecimal("151.94").doubleValue(),
                 basket.calculateTotal().doubleValue(), 0.01);
     }
-
 }
