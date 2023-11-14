@@ -30,7 +30,8 @@ public class BasketTest {
                 .addItem(new ItemBuilder("C").withPrice(new BigDecimal("9.99")).withQuantity(6).build())
                 .build();
         assertEquals(6, basket.getQuantity("C"));
-        assertEquals(new BigDecimal("151.94").doubleValue(), basket.totalPrice().doubleValue(), 0.01);
+        assertEquals(new BigDecimal("151.94").doubleValue(),
+                basket.totalPrice().doubleValue(), 0.01);
 
     }
 }

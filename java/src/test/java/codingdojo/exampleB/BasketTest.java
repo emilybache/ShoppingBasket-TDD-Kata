@@ -43,7 +43,8 @@ public class BasketTest {
         basket.put("B", itemB);
         basket.put("C", itemC);
         assertEquals(6, BasketAnalysis.getQuantity(basket, "C"));
-        assertEquals(new BigDecimal("151.94").doubleValue(), BasketAnalysis.calculateTotal(basket).doubleValue(), 0.01);
+        assertEquals(new BigDecimal("151.94").doubleValue(),
+                BasketAnalysis.calculateTotal(basket).doubleValue(), 0.01);
     }
 
 }
