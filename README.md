@@ -3,7 +3,7 @@
 This code is some design sketches of a solution to the [Shopping Basket Kata](https://sammancoaching.org/kata_descriptions/shopping_basket.html). The interesting part of that exercise is not so much writing the implementation to calculate discounts, but in designing the data structures and classes and functions. There are many ways to do it, these are some ideas. All the test cases are for the specific example included in the problem description. This is not the first test you write if you're doing TDD, but it gives you an idea of a design you could head for.
 
 ## Guided Learning Hour
-This exercise is featured in my YouTube Video [Usage-First Design in TDD](https://youtu.be/4xNPMbV4J4w).
+This exercise is featured in my YouTube Videos [Usage-First Design in TDD](https://youtu.be/4xNPMbV4J4w) and [Incremental TDD](https://youtu.be/5BftptSNrAg).
 
 ## Test List
 I include a list of examples that you could turn into test cases. The same test list works for more than one design. To practice doing TDD, choose one of the design ideas and make sure the test that's there compiles, but is not being run, (set it to "Ignore"). Then start writing the first test on this list (empty basket), see it fail, then write just enough implementation to make it pass. Continue with the next example, gradually building up the functionality incrementally. By the end you should be able to get the original test to pass.
