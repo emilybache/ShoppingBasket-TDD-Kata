@@ -6,6 +6,8 @@
         <Nullable>enable</Nullable>
 
         <IsPackable>false</IsPackable>
+
+        <RootNamespace>ShoppingBasketDesignIdeas</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -17,7 +19,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\ShoppingBasket2\ShoppingBasket2.csproj" />
+      <ProjectReference Include="..\ShoppingBasketA\ShoppingBasketA.csproj" />
     </ItemGroup>
 
 </Project>

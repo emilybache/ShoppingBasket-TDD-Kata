@@ -1,4 +1,4 @@
-namespace ShoppingBasket2.Tests;
+namespace ShoppingBasketB.Tests;
 
 public class Item
 {

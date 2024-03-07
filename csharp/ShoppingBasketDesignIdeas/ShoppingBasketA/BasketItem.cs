@@ -1,4 +1,4 @@
-namespace ShoppingBasket1;
+namespace ShoppingBasketA;
 
 public class BasketItem
 {

@@ -1,20 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingBasket1.Tests", "ShoppingBasket1.Tests\ShoppingBasket1.Tests.csproj", "{847ED86E-ADFD-486B-B21A-989AF01BC7C0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingBasketA.Tests", "ShoppingBasketA.Tests\ShoppingBasketA.Tests.csproj", "{847ED86E-ADFD-486B-B21A-989AF01BC7C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingBasket1", "ShoppingBasket1\ShoppingBasket1.csproj", "{08F557F2-C294-4522-BF25-F3AC9E0F5B9D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingBasketA", "ShoppingBasketA\ShoppingBasketA.csproj", "{08F557F2-C294-4522-BF25-F3AC9E0F5B9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingBasket2", "ShoppingBasket2\ShoppingBasket2.csproj", "{97042E9B-F6B1-4C41-BD9C-A0D0A232C1A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingBasketB", "ShoppingBasketB\ShoppingBasketB.csproj", "{97042E9B-F6B1-4C41-BD9C-A0D0A232C1A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingBasket2.Tests", "ShoppingBasket2.Tests\ShoppingBasket2.Tests.csproj", "{1BA28344-81F4-400E-86D5-C33DC8736A2A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingBasketB.Tests", "ShoppingBasketB.Tests\ShoppingBasketB.Tests.csproj", "{1BA28344-81F4-400E-86D5-C33DC8736A2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingBasket3", "ShoppingBasket3\ShoppingBasket3.csproj", "{CA72C223-B693-4B0C-9A69-F37A4FED30CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingBasketC", "ShoppingBasketC\ShoppingBasketC.csproj", "{CA72C223-B693-4B0C-9A69-F37A4FED30CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingBasket3.Tests", "ShoppingBasket3.Tests\ShoppingBasket3.Tests.csproj", "{ECD816B6-0CDE-4528-A9FE-7E2E9C570C85}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingBasketC.Tests", "ShoppingBasketC.Tests\ShoppingBasketC.Tests.csproj", "{ECD816B6-0CDE-4528-A9FE-7E2E9C570C85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingBasket4", "ShoppingBasket4\ShoppingBasket4.csproj", "{BC5617C0-0876-400F-960C-B00696E05F8F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingBasketD", "ShoppingBasketD\ShoppingBasketD.csproj", "{BC5617C0-0876-400F-960C-B00696E05F8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingBasket4.Tests", "ShoppingBasket4.Tests\ShoppingBasket4.Tests.csproj", "{6BD56970-74D7-4BDE-9E6B-4E2BAE3447B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingBasketD.Tests", "ShoppingBasketD.Tests\ShoppingBasketD.Tests.csproj", "{6BD56970-74D7-4BDE-9E6B-4E2BAE3447B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

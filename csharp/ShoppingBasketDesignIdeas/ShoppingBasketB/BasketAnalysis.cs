@@ -1,4 +1,4 @@
-namespace ShoppingBasket2;
+namespace ShoppingBasketB;
 
 public class BasketAnalysis
 {

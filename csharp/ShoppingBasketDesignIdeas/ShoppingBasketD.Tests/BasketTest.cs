@@ -1,4 +1,7 @@
-namespace ShoppingBasket3.Tests;
+namespace ShoppingBasketD.Tests;
+
+using NUnit.Framework;
+using System.Text.Json;
 
 /*
  * Implement tests in this order:
@@ -20,11 +23,28 @@ public class BasketTest
     [Ignore("WIP")]
     public void Total_Over_100_Gives_Five_Percent_Discount()
     {
-        var basket = new ShoppingBasketBuilder()
-            .AddItem(new ItemBuilder("A").WithPrice(new decimal(10.0)).WithQuantity(5).Build())
-            .AddItem(new ItemBuilder("B").WithPrice(new decimal(25.0)).WithQuantity(2).Build())
-            .AddItem(new ItemBuilder("C").WithPrice(new decimal(9.99)).WithQuantity(6).Build())
-            .Build();
+        string json = @"
+{
+  ""items"": [
+    {
+      ""name"": ""A"",
+      ""price"": 10.0,
+      ""quantity"": 5
+    },
+    {
+      ""name"": ""B"",
+      ""price"": 25.0,
+      ""quantity"": 2
+    },
+    {
+      ""name"": ""C"",
+      ""price"": 9.99,
+      ""quantity"": 6
+    }
+  ]
+}
+";
+        var basket = ShoppingBasketFactory.FromJson(json);
 
         Assert.That(basket.GetQuantity("C"), Is.EqualTo(6));
         Assert.That(basket.CalculateTotal(), Is.EqualTo(new decimal(151.94)).Within(0.01));

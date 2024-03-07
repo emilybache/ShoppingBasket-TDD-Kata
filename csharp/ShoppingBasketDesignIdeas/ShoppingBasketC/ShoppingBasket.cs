@@ -1,13 +1,18 @@
-namespace ShoppingBasket1;
+namespace ShoppingBasketC;
 
 public class ShoppingBasket
 {
-    public void Add(BasketItem item, int quantity)
+    public void AddItem(string itemName, decimal price, int quantity)
+    {
+        // not yet implemented
+    }
+
+    public void RemoveItem(string itemName)
     {
         throw new NotImplementedException();
     }
 
-    public double GetQuantity(String itemName)
+    public double GetQuantity(string itemName)
     {
         throw new NotImplementedException();
     }
