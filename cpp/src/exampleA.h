@@ -1,11 +1,13 @@
 
 
-#ifndef SHOPPINGBASKET_EXAMPLE1A_H
-#define SHOPPINGBASKET_EXAMPLE1A_H
+#ifndef SHOPPINGBASKET_EXAMPLEA_H
+#define SHOPPINGBASKET_EXAMPLEA_H
 
 
 #include <string>
 #include <map>
+
+namespace exampleA{
 
 class BasketItem {
 public:
@@ -30,4 +32,5 @@ public:
 
 };
 
-#endif //SHOPPINGBASKET_EXAMPLE1A_H
+}
+#endif //SHOPPINGBASKET_EXAMPLEA_H

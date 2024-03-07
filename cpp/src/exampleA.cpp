@@ -1,6 +1,8 @@
 
 
-#include "example1a.h"
+#include "exampleA.h"
+
+using namespace exampleA;
 
 int ShoppingBasket::getQuantity(BasketItem item) {
     return 0;
