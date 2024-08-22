@@ -1,10 +1,10 @@
 
 export class ShoppingBasket {
-  add(item: string, quantity: number): void {
+  add(item: BasketItem, quantity: number): void {
     throw new Error("Not implemented");
   }
 
-  get_quantity(item: string): number {
+  get_quantity(item: BasketItem): number {
     throw new Error("Not implemented");
   }
 

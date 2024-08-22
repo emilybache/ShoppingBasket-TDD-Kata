@@ -1,13 +1,16 @@
-import {ShoppingBasket} from '../src/exampleA'
+import {BasketItem, ShoppingBasket} from '../src/exampleA'
 
 
 describe("ShoppingBasket", () => {
   it.skip("should calculate total with discount", () => {
     const basket = new ShoppingBasket();
-    basket.add("A", 5);
-    basket.add("B", 2);
-    basket.add("C", 6);
-    expect(basket.get_quantity("C")).toBe(6);
+    let item_a = new BasketItem("A", 10)
+    let item_b = new BasketItem("B", 25)
+    let item_c = new BasketItem("C", 9.99)
+    basket.add(item_a, 5);
+    basket.add(item_b, 2);
+    basket.add(item_c, 6);
+    expect(basket.get_quantity(item_c)).toBe(6);
     expect(basket.calculate_total()).toBeCloseTo(151.94, 2);
   });
 });
