@@ -10,7 +10,7 @@ describe("ShoppingBasket", () => {
     basket.add(item_a, 5);
     basket.add(item_b, 2);
     basket.add(item_c, 6);
-    expect(basket.get_quantity(item_c)).toBe(6);
+    expect(basket.get_quantity("C")).toBe(6);
     expect(basket.calculate_total()).toBeCloseTo(151.94, 2);
   });
 });
